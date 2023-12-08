@@ -10,8 +10,8 @@ pragma solidity ^0.6.0;
 // Please see: https://docs.chain.link/docs/get-the-latest-price/
 // For more information
 
-import "@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol";
-import "@chainlink/contracts/src/v0.6/vendor/SafeMathChainlink.sol";
+import "../node_modules/@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol";
+import "../node_modules/@chainlink/contracts/src/v0.6/vendor/SafeMathChainlink.sol";
 
 contract FundMe {
     // safe math library check uint256 for integer overflows
